@@ -7,7 +7,7 @@ Hey! This is my career Course app
 .
 .
 .
-# client site repo: 
-# sever site repo:
-# live site:
-# my extra section:
+# client site repo: https://github.com/Porgramming-Hero-web-course/complete-website-client-saifulalamfahim
+# sever site repo: https://github.com/Porgramming-Hero-web-course/complete-website-server-saifulalamfahim
+# live site: https://optimistic-joliot-5d8c3b.netlify.app/dashboard/Graphic%20Course
+# my extra section: in home page i added a extra blog section

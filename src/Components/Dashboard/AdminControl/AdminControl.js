@@ -7,7 +7,7 @@ const AdminControl = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        fetch("http://localhost:4200/allOrders")
+        fetch("https://warm-citadel-70689.herokuapp.com/allOrders")
             .then(res => res.json())
             .then(data => {
                 setOrders(data)
@@ -17,7 +17,7 @@ const AdminControl = () => {
     const handleChange = (e, id, name, service) => {
         const status = { status: e.target.value }
 
-        fetch(`http://localhost:4200/addStatus/${id}`, {
+        fetch(`https://warm-citadel-70689.herokuapp.com/addStatus/${id}`, {
             method: 'PATCH',
             headers: {
                 "Content-Type": "application/json"

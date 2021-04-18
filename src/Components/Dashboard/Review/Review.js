@@ -25,7 +25,7 @@ const Review = () => {
         formData.append('desc', admin.desc);
         formData.append('photo', loggedInUser.photo);
 
-        fetch('http://localhost:4200/review', {
+        fetch('https://warm-citadel-70689.herokuapp.com/review', {
             method: 'POST',
             body: formData
         })

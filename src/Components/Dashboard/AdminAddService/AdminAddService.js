@@ -29,7 +29,7 @@ const AdminAddService = () => {
         formData.append('name', info.name);
         formData.append('desc', info.desc);
 
-        fetch('http://localhost:4200/addService', {
+        fetch('https://warm-citadel-70689.herokuapp.com/addService', {
             method: 'POST',
             body: formData
         })

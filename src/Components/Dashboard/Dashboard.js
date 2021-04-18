@@ -24,7 +24,7 @@ const Dashboard = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
   useEffect(() => {
-    fetch(`http://localhost:4200/findAdmin/${loggedInUser.email}`)
+    fetch(`https://warm-citadel-70689.herokuapp.com/findAdmin/${loggedInUser.email}`)
       .then(res => res.json())
       .then(data => {
         setAdmin(data);

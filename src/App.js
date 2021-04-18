@@ -18,7 +18,7 @@ function App() {
   const [admin, setAdmin] = useState(false);
   const [loggedInUser, setLoggedInUser] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:4200/findAdmin/${loggedInUser.email}`)
+    fetch(`https://warm-citadel-70689.herokuapp.com/findAdmin/${loggedInUser.email}`)
         .then(res => res.json())
         .then(data => {
             setAdmin(data);

@@ -5,7 +5,7 @@ const Feedback = () => {
     const [feedbacks, setFeedbacks] = useState([]);
     const [redirect, setRedirect] = useState();
     useEffect(() =>{
-        fetch("http://localhost:4200/getReview")
+        fetch("https://warm-citadel-70689.herokuapp.com/getReview")
         .then(res => res.json())
         .then(data => {
             setFeedbacks(data)

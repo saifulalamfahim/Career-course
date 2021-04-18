@@ -9,7 +9,7 @@ const ServiceList = () => {
     const [redirect, setRedirect] = useState();
 
     useEffect(() => {
-        fetch(`http://localhost:4200/orders?email=${loggedInUser.email}`, {
+        fetch(`https://warm-citadel-70689.herokuapp.com/orders?email=${loggedInUser.email}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
