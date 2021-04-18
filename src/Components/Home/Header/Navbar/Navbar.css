@@ -1,0 +1,15 @@
+.nav-font{
+    background-color: none;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 760px){
+    .nav-font ul{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+}
