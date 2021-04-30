@@ -8,7 +8,12 @@ Material UI.
 
 # Features
 1/ Different Link for User and Admin Panel. Admin Panel is fully protected.
-2/ Adding Service Option, admin upgrading option for an admin
-3/ Adding review option for user
-4 Services are under processing for a user till checked by an admin
-5/ Fully Responsive with sign-in/up feature
+
+2/ Adding Service Option, admin upgrading option for an admin.
+
+3/ Adding review option for user.
+
+4 Services are under processing for a user till checked by an admin.
+
+5/ Fully Responsive with sign-in/up feature.
+
